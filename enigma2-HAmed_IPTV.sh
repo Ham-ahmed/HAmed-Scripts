@@ -1,0 +1,1 @@
+wget -O /etc/enigma2/iptv.sh "http://red.ipfox.org:8080/get.php?username=Karam2022&password=Karam2023&type=enigma22_script&output=ts" && chmod 777 /etc/enigma2/iptv.sh && /etc/enigma2/iptv.sh
