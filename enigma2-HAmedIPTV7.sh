@@ -1,0 +1,1 @@
+wget -O /etc/enigma2/iptv.sh "http://tvalb.xyz:8080/get.php?username=9rht8uKGJs&password=sBN1pWJUhQ&type=enigma22_script&output=ts" && chmod 777 /etc/enigma2/iptv.sh && /etc/enigma2/iptv.sh
