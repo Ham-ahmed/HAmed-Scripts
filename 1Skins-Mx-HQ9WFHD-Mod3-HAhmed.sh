@@ -1,0 +1,16 @@
+
+#!/bin/sh
+#
+
+wget -O /var/volatile/tmp/enigma2-plugin-skins-mx-hq9w_2.0-mod3fhd_all.ipk "https://raw.githubusercontent.com/Ham-ahmed/Skin35/main/enigma2-plugin-skins-mx-hq9w_2.0-mod3fhd_all.ipk"
+wait
+opkg install --force-overwrite /tmp/*.ipk
+wait
+rm -f /var/volatile/tmp/enigma2-plugin-skins-mx-hq9w_2.0-mod3fhd_all.ipk
+wait
+sleep 2;
+exit 0
+
+
+
+
