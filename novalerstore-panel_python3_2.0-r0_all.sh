@@ -2,37 +2,37 @@
 #
 cd /tmp
 set -e 
- wget "https://raw.githubusercontent.com/Ham-ahmed/HAmed-Scripts/main/novalerstore-panel_python3_2.0-r0_all.ipk"
+ wget "https://raw.githubusercontent.com/Ham-ahmed/HAmed-Scripts/main/novalerstore-panel_python3_2.0-r0_all.tar.gz"
 wait
-tar -xzf novalerstore-panel_python3_2.0-r0_all.ipk  -C /
+tar -xzf novalerstore-panel_python3_2.0-r0_all.tar.gz  -C /
 wait
 cd ..
 set +e
-rm -f /tmp/novalerstore-panel_python3_2.0-r0_all.ipk
+rm -f /tmp/novalerstore-panel_python3_2.0-r0_all.tar.gz
 sleep 2;
 echo "" 
 echo "" 
-echo "****************************************************************************************************************************"
+echo "**************************************************************************************************"
 echo "#  INSTALLED SUCCESSFULLY #"
-echo "* 8888888 8888888 8888888   8888888     888   8888888   88 *"
-echo "* 88      88      88     88 88     88 88   88 88     88 88 *"
-echo "* 88888   8888888 88     88 88     88 8888888 88     88 88 *"
-echo "* 88      88      88888888  88888888  88   88 88888888  88 *"
-echo "* 88      8888888 88     88 88     88 88   88 88     88 88 *"
-echo "*           RAED - Hamdy Ahmed       Novaler 4k Egypt            *"
-echo "*	           88888888  88 88      88                *"
-echo "*	          8          88 8 8   8 88                *"
-echo "*                  88888888  88 88  88  88                *"
-echo "*                          8 88 88      88                *"
-echo "*	           88888888  88 88      88                *"
-echo "*                Enigma2 restart is required              *"
-echo "********************************************************************************"
+echo "*      888888  888888    .d88b.    88888     88    88   .d88b.  *"
+echo "*      88  88  88  88   88    88   88   88   88    88  88    88 *"
+echo "*      88    88    88  88      88  88    88  88oooo88  88oooo88 *"
+echo "*      88          88   88    88   88    88  88    88  88    88 *"
+echo "*      88          88   .d88b.     888888    88    88  88    88 *"
+echo "*          EDITE - Hamdy Ahmed       Novaler 4k Egypt *"
+echo "*           888888  88    88  oo  8888     88  8888 *"
+echo "*           88      88  88    88  88 88    88  88   *"
+echo "*           88888   8888      88  88  88   88  8888 *"
+echo "*              88   88  88    88  88    88 88    88 *"
+echo "*           88888   88   88   88  88     8888  8888 *"
+echo "*                Enigma2 restart is required            *"
+echo "*************************************************************************************************"
 echo "   UPLOADED BY  >>>>   HAMDY_AHMED "
 sleep 4;
-	echo '========================================================================================================================='
+	echo '========================================================================================='
 ###########################################                                                                                                                  
 echo ". >>>>         RESTARING     <<<<"
-echo "**********************************************************************************"
+echo "*************************************************************************************************"
 wait
 killall -9 enigma2
 exit 0
